@@ -6,8 +6,7 @@ namespace Lucas
     {
         static void Main(string[] args)
         {
-            Console.Write("Please enter a number: ");
-            int n = Convert.ToInt32(Console.ReadLine());
+            int n = Convert.ToInt32(args[0]);
 
             int resultado = Lucas(n);
             Console.WriteLine($"the {n} number of the Lucas sequence is: {resultado}");
