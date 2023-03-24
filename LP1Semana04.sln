@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Power2Method", "Power2Method\Power2Method.csproj", "{A745CC3B-4D06-43A8-ADC8-50189B44B40F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamousQuotes", "FamousQuotes\FamousQuotes.csproj", "{E09A6B1B-D464-46A6-9366-85E15897D696}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{A745CC3B-4D06-43A8-ADC8-50189B44B40F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A745CC3B-4D06-43A8-ADC8-50189B44B40F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A745CC3B-4D06-43A8-ADC8-50189B44B40F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E09A6B1B-D464-46A6-9366-85E15897D696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E09A6B1B-D464-46A6-9366-85E15897D696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E09A6B1B-D464-46A6-9366-85E15897D696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E09A6B1B-D464-46A6-9366-85E15897D696}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
