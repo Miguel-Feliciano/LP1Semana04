@@ -17,7 +17,7 @@ namespace Power2Method
             PowersOf2Until5();
             PowersOf2Until5();
             PowersOf2UntilN(7);
-            PowersOf2UntilN(4);
+            PowersOf2UntilN(3, 6);
         }
         /// <summary>
         /// Calls PowersOf2UntilN with the value of 5
@@ -33,6 +33,18 @@ namespace Power2Method
         private static void PowersOf2UntilN(int n)
         {
             for (int i = 1; i <= (1 << n); i = i << 1)
+            {
+                Console.WriteLine(i);
+            }
+        }
+        /// <summary>
+        /// Imprime as potências de 2 entre as n1 e n2
+        /// </summary>
+        /// <param name="n1">A potência mínima a ser exibida.</param>
+        /// <param name="n2">A potência máxima a ser exibida.</param>
+        private static void PowersOf2UntilN(int n1, int n2)
+        {
+            for (int i = (1 << n1); i <= (1 << n2); i = i << 1)
             {
                 Console.WriteLine(i);
             }
